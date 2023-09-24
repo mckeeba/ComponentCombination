@@ -1,0 +1,33 @@
+#comboButtonLayout
+{
+  
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+
+}
+
+.button
+{
+   flex: 0.15;
+   
+  text-align: center;
+  padding: 2%;
+
+  border-width: 2px;
+  border-color: black;
+  border-style: solid;
+  font-size: 6rem;
+  color: rgb(0, 0, 109);
+  user-select: none;
+}
+
+.button:hover
+{
+  cursor: pointer;
+    background-color:rgb(46, 49, 52);
+    color: rgb(13, 13, 173);
+}
+
+

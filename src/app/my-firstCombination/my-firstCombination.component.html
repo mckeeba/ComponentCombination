@@ -1,0 +1,27 @@
+<h1>Take A Potato And Enter The Void</h1>
+
+<section id="comboButtonLayout">
+  <h1 class="button" (click)="rotate(0)">
+    {{ comboCode[currentCode[0]] }}
+  </h1>
+
+  <h1 class="button" (click)="rotate(1)">
+    {{ comboCode[currentCode[1]] }}
+  </h1>
+
+  <h1 class="button" (click)="rotate(2)">
+    {{ comboCode[currentCode[2]] }}
+  </h1>
+
+  <h1 class="button" (click)="rotate(3)">
+    {{ comboCode[currentCode[3]] }}
+  </h1>
+
+  <h1 class="button" (click)="rotate(4)">
+    {{ comboCode[currentCode[4]] }}
+  </h1>
+</section>
+
+<div *ngIf="comboCorrect()">
+  <h1>You Are Now One With The Void</h1>
+</div>

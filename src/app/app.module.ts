@@ -4,9 +4,14 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
+import { comboComponent } from './my-firstCombination/my-firstCombintion.component';
+
+
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    comboComponent,
+    
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,24 @@
+#wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.symbol {
+    flex: 1;
+    text-align: center;
+    padding: 2%;
+}
+.symbol h3 {
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+    font-size: 6rem;
+    color: rgb(0, 0, 109);
+    user-select: none;
+}
+.symbol h3:hover {
+    cursor: pointer;
+    background-color:rgb(46, 49, 52);
+    color: rgb(163, 163, 255);
+}
